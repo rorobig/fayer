@@ -1,0 +1,41 @@
+/*html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-holder {
+  width: 100%;
+  height: 100%;
+}
+
+section{
+  padding: 60px 10px;
+}
+
+.bg-holder#pic1 {
+  background-image: url('img/test.jpg');
+}
+
+.bg-holder#pic2 {
+  background-image: url('img/test2.jpg.jpg');
+}
+.bg-holder#pic3 {
+  background-image: url('img/test3.jpg');
+  background-repeat: no-repeat;
+  background-size: 80px 60px;
+}
+
+@media (min-width: 768px) {
+  .bg-holder#pic1 {
+    background-image: url('img/test.jpg');
+  }
+  .bg-holder#pic2 {
+    background-image: url('img/test2.jpg');
+  }
+  .bg-holder#pic3 {
+    background-image: url('img/test3.jpg');
+    background-repeat: no-repeat;
+    background-size: 80px 60px;
+  }
+}*/

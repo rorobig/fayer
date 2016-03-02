@@ -1,0 +1,500 @@
+.red{
+	border:1px solid red;
+}
+.header{		
+	height: 108px;
+	border:1px solid #ccc;
+    
+}
+
+.header img {
+	float: left;
+	height: auto;
+	width: 75px;
+	padding:10px;
+}
+.header h1 {
+	padding-top:15px;
+}
+.navbar{
+	margin-bottom:0;
+}
+.fayer-img img {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+  width: 100%;
+}
+
+.fayer-img img:hover{
+  transform: scale(1:1);
+}
+
+.academics {
+	margin-top:30px;
+}
+
+.footer{
+	background-color:#eee;
+	text-align: center;
+	height: 50px;
+    padding-top: 10px;
+}
+
+
+.fayer-img p {
+   text-align: center;
+}
+
+.col-md-6 img{
+	width: 300px;
+	height: 200px;
+}
+
+.social img{
+	height:50px;
+	width: 50px;
+}
+ 
+ .footer{
+ 	border: 1px solid red;
+ }
+ #login-form
+{
+ margin-top:70px;
+}
+table
+{
+ border:solid #dcdcdc 1px;
+ padding:25px;
+ box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+table tr,td
+{
+ padding:15px;
+ //border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+ width:97%;
+ height:45px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:10px;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#f9f9f9;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+ width:100%;
+ height:45px;
+ border:0px;
+ background:rgba(12,45,78,11);
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+ font-weight:bolder;
+ text-transform:uppercase;
+}
+table tr td button:active
+{
+ position:relative;
+ top:1px;
+}
+table tr td a
+{
+ text-decoration:none;
+ color:#00a2d1;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+}
+
+/* css for home page  */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+#header
+{
+ width:100%;
+ height:60px;
+ background:rgba(00,11,22,33);
+ color:#9fa8b0;
+ font-family:Verdana, Geneva, sans-serif;
+}
+#header #left
+{
+ float:left;
+ position:relative;
+}
+#header #left label
+{
+ position:relative;
+ top:5px;
+ left:100px;
+ font-size:35px;
+}
+#header #right
+{
+ float:right;
+ position:relative;
+}
+#header #right #content
+{
+ position:relative;
+ top:20px;
+ right:100px;
+ color:#fff;
+}
+#header #right #content a
+{
+ color:#00a2d1;
+}
+
+/* css for home page */
+
+/*
+	.art {
+    width: 938px;
+    height: 220px;
+    display:block;
+}*/
+
+.fb-like {
+	height:5px;
+}
+.box{
+	 border: 1px solid;
+    background-color: #E9F2F7;
+    HEIGHT: 60PX;
+}
+
+.box1{
+text-align: center;
+	width: 1100px;
+	background: radial-gradient(white, red); /* Standard syntax (must be last) */
+    padding-top: 1px;
+	height:50px;
+	margin:auto;
+	border-radius: 5px;
+	 box-shadow: 10px 10px 5px #888888;
+	 font-family: playfair display;
+}
+
+.form-control{
+width: 500px;
+}
+
+.form-button{
+	width: 7000px;
+}
+
+.request{
+	
+	text-align: center;
+	width: 600px;
+	background: radial-gradient(white, red); /* Standard syntax (must be last) */
+    padding-top: 1px;
+	height:50px;
+	margin:auto;
+	border-radius: 5px;
+	 box-shadow: 10px 10px 5px #888888;
+	 font-family: playfair display;
+}
+
+/*.li{
+	float:right;
+	inline:block;
+}
+*/
+
+.courses{
+
+	width:600px;
+}
+
+.img3{
+	/*float:left;*/
+	clear:both;
+	display:inline;
+	height:200px;
+	margin-right:50px;
+	margin-left:15px;
+
+}
+.course1{
+	display:inline-block;
+}
+
+.row{
+	display:inline;
+}
+.test{
+	width: 340px;
+
+}
+
+.img1{
+	width: 565px;
+	box-shadow: 10px 10px 5px #ccc;
+	border-radius:25px;
+}
+.serif{font-family:  sans-serif;
+
+}
+body{
+
+     font-family: 'Rokkitt', serif;
+     font-size: 175%;
+      }
+.header{
+
+	 font-family: 'Rokkitt', serif;
+    }
+    /*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+  .fayer-img img:hover {
+  transform: scale(1.1);
+}
+
+.fayer-img img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+
+.fayer-img {
+  overflow: hidden;
+}
+
+
+
+
+.navbar{
+    background-color: red;
+}
+        
+.blue{
+    border:1px solid black;
+    box-shadow: 1px 1px 3px #868695; 
+        border-radius: 3px;
+    
+}
+
+.purple img{
+    height:183px;
+
+}
+
+.green{
+    border:1px solid black;
+    box-shadow: 1px 1px 3px #868695; 
+        border-radius: 3px;
+}
+
+
+.no-left-padding{
+  padding-left: 0 !important; 
+}
+
+.item{
+border:1px solid black;
+padding-right: 50px;
+
+}
+.contact{
+border:1px solid black;
+    box-shadow: 1px 1px 3px #868695; 
+        border-radius: 3px;
+        width: 50 px;
+
+}
+.il{
+    background-color: #FF6161;
+}
+.request1{
+    
+    text-align: center;
+    width: 540px;
+    background: radial-gradient(white, red); /* Standard syntax (must be last) */
+    padding-top: 1px;
+    height:50px;
+    margin:auto;
+    border-radius: 5px;
+     box-shadow: 10px 10px 5px #888888;
+     font-family: playfair display;
+ } 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 500px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 40px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+}
+.content p {
+    font-size:20px;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background: url('../img/test.jpg') ;
+    background-attachment: fixed; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+}
+#wall_2 {
+    background: url('../img/test2.jpg') repeat;
+   background-attachment: fixed; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+       }
+#wall_3 {
+    background: url('../img/test3.jpg') repeat;
+    background-attachment: fixed; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+}
+
+
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    margin: auto 100px;
+}
+
+#nav #logo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.box3{
+
+
+padding-top: 5000px;
+    width: 250px;
+    background: radial-gradient(white, red); /* Standard syntax (must be last) */
+    padding-top: 1px;
+    height:45px;
+    
+    border-radius: 5px;
+     box-shadow: 10px 10px 5px #888888;
+     font-family: playfair display;
+}
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/Preloader_8.gif) center no-repeat #fff;
+}
